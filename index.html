@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8">
+    <title>Home</title>
+
+<!-- CSS links go beneath this comment. There are three links. Put the style.css on
+     line 10, the nav.css on line 11, and responsive.css on line 12. Read the
+     stylesheet-links.README file for full instructions. do not do this all at once  -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" type="text/css" href="responsive.css">
+
+<!--  Google font links go beneath this comment. There are two links. Put the
+      first on line 16 and the second on line 17. Read the
+      google-fonts-links.README file for full instructions -->
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+ </head>
+
+  <body>
+
+  <nav class="top-nav">    <!-- You need to put in the class that is in the nav.css file -->
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="Classes.html">Classes</a></li>
+    <li><a href="Interests.html">Interests</a></li>
+  </ul>
+</nav>
+
+
+<section>
+
+ <h1>BAHIJ DAHDAL</h1>
+
+<img class="medium align-center" src="Beach.jpg" alt="headshot">
+
+<p>Welcome to my website.</p>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+/***********************************************
+* Encrypt Email script- Please keep notice intact
+* Tool URL: http://www.dynamicdrive.com/emailriddler/
+* **********************************************/
+<!-- Encrypted version of: bahij.dahdal [at] *****.*** //-->
+
+var emailriddlerarray=[98,97,104,105,106,46,100,97,104,100,97,108,64,103,109,97,105,108,46,99,111,109]
+var encryptedemail_id40='' //variable to contain encrypted email
+for (var i=0; i<emailriddlerarray.length; i++)
+ encryptedemail_id40+=String.fromCharCode(emailriddlerarray[i])
+
+document.write('<a href="mailto:'+encryptedemail_id40+'">bahij.dahdal@gmail.com</a>')
+
+/*]]>*/
+</script>
+
+<p><a href="example.php">PHP example</a></p>
+
+<script LANGUAGE="JavaScript">
+    var now = new Date();
+    var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+    var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+    var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+     function fourdigits(number)	{
+	 return (number < 1000) ? number + 1900 : number;
+								}
+     today =  days[now.getDay()] + ", " +
+              months[now.getMonth()] + " " +
+              date + ", " +
+             (fourdigits(now.getYear())) ;
+     document.write(today);
+</script>
+
+<script>
+document.write("Last updated on " + document.lastModified +"");
+</script>
+</section>
+</body>
+
+
+</html>
+
+<!-- Localized -->
